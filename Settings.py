@@ -16,7 +16,7 @@ def getPlexGDM():
     return True  # True: use PlexGDM (GoodDayMate) to auto discover PMS
 
 def getIP_PMS():  # default IP, if GDM fails... todo: do we need this fall back?
-    return '192.168.178.2'
+    return '192.168.1.238'
 def getPort_PMS():
     return 32400
 
